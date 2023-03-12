@@ -4,6 +4,8 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
     Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-image: linear-gradient(#333333, black);
+  color: white;
 }
 
 * {
@@ -32,4 +34,49 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 980px;
+}
+
+.circle-container {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.circle {
+  animation: linear;
+  animation-name: circle-animation;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes circle-animation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(364deg);
+  }
+  /*0%   {width: 100px; height: 100px; rotate: 0}*/
+  /*25%  {width: 98px; height: 98px; rotate: x 25}*/
+  /*50%  {width: 90px; height: 90px; rotate: 90}*/
+  /*75%  {width: 98px; height: 98px;}*/
+  /*100%   {width: 100px; height: 100px;}*/
+}
+
+h2 {
+  color: #598daf;
+}
+
+p {
+ color: white;
 }

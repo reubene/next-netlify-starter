@@ -1,0 +1,27 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 10px 40px 15px 20px;
+    border: white solid 3px; border-radius: 10px;
+}
+
+.label {
+    margin-left: 10px;
+}
+.login {
+    background-color: black;
+    color: white;
+    border: white solid 3px; border-radius: 10px;
+    width: min-content;
+    margin: 5px;
+    padding: 2px 6px;
+}
+
+.input {
+    background-color: black;
+    color: white;
+    margin: 5px;
+    padding: 2px;
+    border: white solid 3px; border-radius: 10px;
+}
