@@ -11,8 +11,8 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
           <div className="center-content">
+              <Header />
             <div className="circle-container">
               <img className="circle" src='/circle2.png' alt="A circle"/>
             </div>

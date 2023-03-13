@@ -1,3 +1,4 @@
-export default function Header({ title }) {
-  return <h1 className="title">{title}</h1>
+export default function Header() {
+  return <h1 className="title">Siri does more than ever.
+    Even before you ask.</h1>
 }
